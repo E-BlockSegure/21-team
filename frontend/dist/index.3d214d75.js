@@ -1322,7 +1322,7 @@ class Wallet {
     }
 }
 
-},{"near-api-js":"ohc3m","@near-wallet-selector/modal-ui/styles.css":"b4TAP","@near-wallet-selector/modal-ui":"1nDKo","@near-wallet-selector/ledger/assets/ledger-icon.png":"dGAA6","@near-wallet-selector/my-near-wallet/assets/my-near-wallet-icon.png":"aTHwi","@near-wallet-selector/core":"eEY3a","@near-wallet-selector/ledger":"9enQf","@near-wallet-selector/my-near-wallet":"bYYGG","buffer":"lJGLt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ohc3m":[function(require,module,exports) {
+},{"near-api-js":"ohc3m","@near-wallet-selector/modal-ui/styles.css":"b4TAP","@near-wallet-selector/modal-ui":"1nDKo","@near-wallet-selector/ledger/assets/ledger-icon.png":"dGAA6","@near-wallet-selector/my-near-wallet/assets/my-near-wallet-icon.png":"aTHwi","@near-wallet-selector/core":"eEY3a","@near-wallet-selector/ledger":"9enQf","@near-wallet-selector/my-near-wallet":"bYYGG","buffer":"5KTeM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ohc3m":[function(require,module,exports) {
 "use strict";
 var __createBinding = this && this.__createBinding || (Object.create ? function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -4114,8 +4114,8 @@ Object.defineProperty(exports, "BinaryReader", {
 
 },{"borsh":"4JCmN"}],"4JCmN":[function(require,module,exports) {
 "use strict";
-var global = arguments[3];
 var Buffer = require("buffer").Buffer;
+var global = arguments[3];
 var __createBinding = this && this.__createBinding || (Object.create ? function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     Object.defineProperty(o, k2, {
@@ -4496,7 +4496,7 @@ function deserializeUnchecked(schema, classType, buffer, Reader = BinaryReader) 
 }
 exports.deserializeUnchecked = deserializeUnchecked;
 
-},{"buffer":"lJGLt","bn.js":"VopIn","bs58":"4ji3p","text-encoding-utf-8":"feCA6"}],"lJGLt":[function(require,module,exports) {
+},{"buffer":"5KTeM","bn.js":"VopIn","bs58":"4ji3p","text-encoding-utf-8":"feCA6"}],"5KTeM":[function(require,module,exports) {
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -5726,7 +5726,7 @@ var hexSliceLookupTable = function() {
     return table;
 }();
 
-},{"base64-js":"hs7pQ","ieee754":"d4zJn"}],"hs7pQ":[function(require,module,exports) {
+},{"base64-js":"3cI5S","ieee754":"4q7Vx"}],"3cI5S":[function(require,module,exports) {
 "use strict";
 exports.byteLength = byteLength;
 exports.toByteArray = toByteArray;
@@ -5826,7 +5826,7 @@ function fromByteArray(uint8) {
     return parts.join("");
 }
 
-},{}],"d4zJn":[function(require,module,exports) {
+},{}],"4q7Vx":[function(require,module,exports) {
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */ exports.read = function(buffer, offset, isLE, mLen, nBytes) {
     var e, m;
     var eLen = nBytes * 8 - mLen - 1;
@@ -8821,7 +8821,7 @@ SafeBuffer.allocUnsafeSlow = function(size) {
     return buffer.SlowBuffer(size);
 };
 
-},{"buffer":"lJGLt"}],"feCA6":[function(require,module,exports) {
+},{"buffer":"5KTeM"}],"feCA6":[function(require,module,exports) {
 "use strict";
 // This is free and unencumbered software released into the public domain.
 // See LICENSE.md for more information.
@@ -9687,7 +9687,7 @@ exports.Provider = Provider;
 }
 exports.getTransactionLastResult = getTransactionLastResult;
 
-},{"buffer":"lJGLt"}],"kzXVU":[function(require,module,exports) {
+},{"buffer":"5KTeM"}],"kzXVU":[function(require,module,exports) {
 "use strict";
 var Buffer = require("buffer").Buffer;
 var __importDefault = this && this.__importDefault || function(mod) {
@@ -10047,7 +10047,7 @@ let _nextId = 123;
 }
 exports.JsonRpcProvider = JsonRpcProvider;
 
-},{"buffer":"lJGLt","depd":"2jGeI","./provider":"cUEh0","../utils/web":"iSqiB","../utils/errors":"btMYy","borsh":"4JCmN","../utils/exponential-backoff":"51I5X","../utils/rpc_errors":"1TB1L"}],"2jGeI":[function(require,module,exports) {
+},{"buffer":"5KTeM","depd":"2jGeI","./provider":"cUEh0","../utils/web":"iSqiB","../utils/errors":"btMYy","borsh":"4JCmN","../utils/exponential-backoff":"51I5X","../utils/rpc_errors":"1TB1L"}],"2jGeI":[function(require,module,exports) {
 /*!
  * depd
  * Copyright(c) 2015 Douglas Christopher Wilson
@@ -14802,7 +14802,7 @@ async function signTransaction(...args) {
 }
 exports.signTransaction = signTransaction;
 
-},{"buffer":"lJGLt","js-sha256":"ahVaM","./utils/enums":"kjmPo","borsh":"4JCmN","./utils/key_pair":"kBQFP"}],"ahVaM":[function(require,module,exports) {
+},{"buffer":"5KTeM","js-sha256":"ahVaM","./utils/enums":"kjmPo","borsh":"4JCmN","./utils/key_pair":"kBQFP"}],"ahVaM":[function(require,module,exports) {
 var process = require("process");
 var global = arguments[3];
 /**
@@ -15953,7 +15953,7 @@ function bytesJsonStringify(input) {
 }
 exports.Account = Account;
 
-},{"buffer":"lJGLt","bn.js":"9pdNn","depd":"2jGeI","./transaction":"jJQ5a","./providers":"gtL2a","borsh":"4JCmN","./utils/key_pair":"kBQFP","./utils/errors":"btMYy","./utils/rpc_errors":"1TB1L","./constants":"lUNnG","./utils/exponential-backoff":"51I5X"}],"lUNnG":[function(require,module,exports) {
+},{"buffer":"5KTeM","bn.js":"9pdNn","depd":"2jGeI","./transaction":"jJQ5a","./providers":"gtL2a","borsh":"4JCmN","./utils/key_pair":"kBQFP","./utils/errors":"btMYy","./utils/rpc_errors":"1TB1L","./constants":"lUNnG","./utils/exponential-backoff":"51I5X"}],"lUNnG":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -16293,7 +16293,7 @@ const convertActions = (actions, accountId, receiverId)=>actions.map((a)=>{
         return action;
     });
 
-},{"buffer":"lJGLt","bn.js":"9pdNn","depd":"2jGeI","./account":"hxSQV","./utils/format":"16c5X","./utils/key_pair":"kBQFP","./transaction":"jJQ5a","./utils/web":"iSqiB"}],"aQbxV":[function(require,module,exports) {
+},{"buffer":"5KTeM","bn.js":"9pdNn","depd":"2jGeI","./account":"hxSQV","./utils/format":"16c5X","./utils/key_pair":"kBQFP","./transaction":"jJQ5a","./utils/web":"iSqiB"}],"aQbxV":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -16987,7 +16987,7 @@ exports.WalletAccount = WalletConnection;
 }
 exports.ConnectedWalletAccount = ConnectedWalletAccount;
 
-},{"buffer":"lJGLt","depd":"2jGeI","./account":"hxSQV","./transaction":"jJQ5a","./utils":"jOCMH","borsh":"4JCmN"}],"7yTE6":[function(require,module,exports) {
+},{"buffer":"5KTeM","depd":"2jGeI","./account":"hxSQV","./transaction":"jJQ5a","./utils":"jOCMH","borsh":"4JCmN"}],"7yTE6":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -53287,7 +53287,7 @@ function setupLedger({ iconUrl =icon , deprecated =false  } = {}) {
         });
 }
 
-},{"is-mobile":"2AVrM","@near-wallet-selector/wallet-utils":"5gEB8","@near-wallet-selector/core":"eEY3a","@ledgerhq/hw-transport-webhid":"8O295","near-api-js":"ohc3m","buffer":"lJGLt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2AVrM":[function(require,module,exports) {
+},{"is-mobile":"2AVrM","@near-wallet-selector/wallet-utils":"5gEB8","@near-wallet-selector/core":"eEY3a","@ledgerhq/hw-transport-webhid":"8O295","near-api-js":"ohc3m","buffer":"5KTeM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2AVrM":[function(require,module,exports) {
 "use strict";
 module.exports = isMobile;
 module.exports.isMobile = isMobile;
@@ -56275,7 +56275,7 @@ function getFirstLedgerDevice() {
 }((0, _hwTransportDefault.default));
 exports.default = TransportWebHID;
 
-},{"@ledgerhq/hw-transport":"59Ey9","@ledgerhq/devices/lib/hid-framing":"fvgJh","@ledgerhq/devices":"fnHxP","@ledgerhq/logs":"i4OI0","@ledgerhq/errors":"EVZMy","buffer":"lJGLt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"59Ey9":[function(require,module,exports) {
+},{"@ledgerhq/hw-transport":"59Ey9","@ledgerhq/devices/lib/hid-framing":"fvgJh","@ledgerhq/devices":"fnHxP","@ledgerhq/logs":"i4OI0","@ledgerhq/errors":"EVZMy","buffer":"5KTeM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"59Ey9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "TransportError", ()=>(0, _errors.TransportError));
@@ -56724,7 +56724,7 @@ var __values = undefined && undefined.__values || function(o) {
 }();
 exports.default = Transport;
 
-},{"events":"1VQLm","@ledgerhq/errors":"EVZMy","buffer":"lJGLt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1VQLm":[function(require,module,exports) {
+},{"events":"1VQLm","@ledgerhq/errors":"EVZMy","buffer":"5KTeM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1VQLm":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -57619,7 +57619,7 @@ var initialAcc = {
 };
 exports["default"] = createHIDframing;
 
-},{"buffer":"lJGLt","@ledgerhq/errors":"EVZMy"}],"fnHxP":[function(require,module,exports) {
+},{"buffer":"5KTeM","@ledgerhq/errors":"EVZMy"}],"fnHxP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IIGenericHID", ()=>IIGenericHID);

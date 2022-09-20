@@ -4,14 +4,9 @@
 }
 
 html {
-  --bg: #efefef;
-  --fg: #1e1e1e;
-  --gray: #555;
-  --light-gray: #ccc;
-  --shadow: #e6e6e6;
   --success: #5ace84;
   --primary: #ff585d;
-  --secondary: #0072ce;
+  --secondary: #1687a7;
   background-color: var(--bg);
   color: var(--fg);
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
@@ -21,7 +16,6 @@ html {
 
 body {
   margin: 0;
-  padding: 1em;
 }
 
 main {
@@ -29,23 +23,31 @@ main {
   margin: 0 auto;
 }
 
-h1 {
-  text-align: center;
-  background-image: url("logo-black.4514ed42.svg");
-  background-position: 50% 1em;
-  background-repeat: no-repeat;
-  background-size: auto 1.5em;
-  margin-top: 0;
-  padding: 3.5em 0 0;
-  font-size: 1.5em;
-}
-
 .greeting {
   color: var(--secondary);
   text-decoration: underline;
 }
 
-h2 {
+h2 span {
+  color: var(--secondary);
+  margin: 0;
+  font-size: 1.5em;
+}
+
+h2 strong {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+p strong {
+  color: var(--secondary);
+}
+
+#sign-in-button {
+  margin-top: 1em;
+}
+
+h3 {
   text-align: center;
 }
 
@@ -170,24 +172,6 @@ code {
 
 li {
   padding-bottom: 1em;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    --bg: #1e1e1e;
-    --fg: #efefef;
-    --gray: #aaa;
-    --shadow: #2a2a2a;
-    --light-gray: #444;
-  }
-
-  h1 {
-    background-image: url("logo-white.a7716062.svg");
-  }
-
-  input:focus {
-    box-shadow: inset 0 0 10em #ffffff05;
-  }
 }
 
 main.please-wait .loader, main.please-wait .loader:after {
