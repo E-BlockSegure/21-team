@@ -23,6 +23,10 @@ main {
   margin: 0 auto;
 }
 
+#sign-in-button {
+  width: 274px;
+}
+
 .greeting {
   color: var(--secondary);
   text-decoration: underline;
@@ -135,9 +139,9 @@ button {
   color: #efefef;
   cursor: pointer;
   border: none;
-  border-radius: 5px;
-  padding: .3em .75em;
+  border-radius: 50px;
   transition: transform 30ms;
+  box-shadow: 0 5px 5px #4b5d687a;
 }
 
 button:hover, button:focus {

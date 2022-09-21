@@ -26,6 +26,10 @@ main {
 
 main.please-wait {}
 
+#sign-in-button{
+  width: 274px;
+}
+
 
 .greeting {
   color: var(--secondary);
@@ -147,12 +151,12 @@ main.please-wait .change button span {
 
 button {
   background-color: var(--secondary);
-  border-radius: 5px;
   border: none;
   color: #efefef;
   cursor: pointer;
-  padding: 0.3em 0.75em;
   transition: transform 30ms;
+  box-shadow: 0px 5px 5px rgb(75 93 104 / 48%);
+  border-radius: 50px;
 }
 
 button:hover,
@@ -240,3 +244,4 @@ main.please-wait .loader:after {
     transform: rotate(360deg);
   }
 }
+
